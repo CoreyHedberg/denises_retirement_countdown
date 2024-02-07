@@ -31,7 +31,7 @@ function countdownToVacationCompleted() {
   document.getElementById("vacation-countdown").style.display = "none"
   document.getElementById(
     "header-text"
-  ).innerText = `Enjoy your vacation Boss (and family)!`
+  ).innerText = `Enjoy your retirement Denise`
   return
 }
 // Initialize the function
