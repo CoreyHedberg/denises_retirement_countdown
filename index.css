@@ -9,7 +9,13 @@ body {
   margin: 0 auto;
   text-align: center;
   color: yellow;
-  background-image: url(./images/retirement_background.jpg);
+  background-image: url("images/retirement_background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 #header {
   font-size: 2.5rem;
@@ -30,15 +36,7 @@ body {
   font-size: 2em;
 }
 
-#countdown-header-text {
-  font-size: 3em;
-}
-
-#countdown-header-image {
-  font-size: 4em;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #header {
     font-size: 1.25rem;
   }
